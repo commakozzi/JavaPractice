@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Calculator {
 
   double result = 0;
@@ -5,8 +7,7 @@ class Calculator {
 
   Calculator (int a, int b) {
 
-    result = a + b;
-    System.out.println(result);
+
 
   }
 
