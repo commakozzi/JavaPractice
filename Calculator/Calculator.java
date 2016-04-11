@@ -1,11 +1,13 @@
-package Calculator;
-
 class Calculator {
 
-  Calculator (int ... a) {
-    for (int i = 0; i < a.length; i++) {
-      System.out.println(a[i]);
-    }
+  double result = 0;
+  char input;
+
+  Calculator (int a, int b) {
+
+    result = a + b;
+    System.out.println(result);
+
   }
 
 }
